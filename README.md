@@ -1,5 +1,6 @@
 # Clear Thought 1.5 MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@Xxx00xxX33/clearthought-onepointfive)](https://smithery.ai/server/@Xxx00xxX33/clearthought-onepointfive)
 [![smithery badge](https://smithery.ai/badge/@waldzellai/clear-thought-onepointfive)](https://smithery.ai/server/@waldzellai/clear-thought-onepointfive)
 
 A Model Context Protocol (MCP) server that provides a unified reasoning tool with multiple operations, including systematic thinking, mental models, debugging approaches, and interactive notebook capabilities for enhanced problem-solving. This server exposes a single `clear_thought` tool with a comprehensive suite of operations to facilitate complex reasoning tasks, plus interactive Srcbook notebook resources.
@@ -290,7 +291,7 @@ docker run -it waldzellai/clear-thought-onepointfive
   - `npx @modelcontextprotocol/inspector dist/src/index.js`
   - Open the printed URL (with prefilled token) to interact in the browser.
 
-Note: `prompts/list` is not implemented by design, so seeing 32601 “Method not found” for that endpoint is expected.
+Note: `prompts/list` is not implemented by design, so seeing 32601 "Method not found" for that endpoint is expected.
 
 ### Tested Operations Summary
 
